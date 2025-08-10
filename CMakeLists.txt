@@ -10,4 +10,4 @@ if (NOT CMAKE_BUILD_TYPE)
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O3  -Wall")
 endif ()
 
-add_subdirectory(infinite_sense_core)
+add_subdirectory(src)
